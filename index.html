@@ -1,12 +1,15 @@
 <!DOCTYPE html>
     <html>
     <head>
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
         <title>Autotovars</title>
         <script src="js/jquery-2.2.3.min.js" scr="js/materialize.js" ></script>
         <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
          <link rel="stylesheet" href="css/materialize.css">
-         <link rel="shortcut icon" href="2.png" type="image/x-icon">
          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+         <link rel="shortcut icon" href="2.png" type="image/x-icon">
 <style>
 h1{
     font-family: 'Shrikhand', cursive;
@@ -22,6 +25,7 @@ width: 100%;
 margin-top:-2%; 
 background-attachment: fixed;
 background-size: cover;
+
 }
 .scrolling{
 }
@@ -30,12 +34,61 @@ background-size: cover;
     background-color: #00000065;
  height: 100%;
    width:60%;
+   
 }
 #nav{
 
+
     
 }
+.icon{
+    
+    width: 30px;
+    height: 30px;
+margin-left:322%;
+margin-top:5%;
 
+
+}
+.tires {
+   margin-top:-57%;
+   margin-left: 50%;
+    width: 90px;
+    height: 50px;
+    -o-transition: transform 3s linear;
+    -ms-transition: transform 3s linear;
+    -moz-transition: transform 3s linear;
+    -webkit-transition: transform 3s linear;
+    transition: transform 2s linear;
+  }
+  .tires:hover {
+    -o-transform: rotate(2turn);
+    -ms-transform: rotate(2turn);
+    -moz-transform: rotate(2turn);
+    -webkit-transform: rotate(2turn);
+    transform: rotate(2turn);
+  }
+
+.autotovars{
+font-style: bold;
+    height: 20px;
+    width: 100px;
+margin-left: -315%;
+
+}
+  .first{
+    font-size:24px;
+}
+.second{
+
+   font-size:24px; 
+}
+.carpet{
+    margin-top:-67%;
+   margin-left:80%;
+
+
+}
 </style>
          </head>
     <body>
@@ -44,16 +97,17 @@ background-size: cover;
     <h1>Autotovars for cars!</h1> 
     <nav>
             <div class="nav-wrapper">
-              <a href="#!" class="brand-logo center">Logo</a>
-              <ul class="left hide-on-med-and-down">
-                <li><a href="sass.html">Sass</a></li>
-                <li><a href="badges.html">Components</a></li>
-                
+              <a href="#!" class="brand-logo center"><div class="autotovars">Autotovars</div></a>
+             <ul class="left hide-on-med-and-down">
+                <li><a href="tires.html"><div class="first">Шини   </div><div class="tires"><img src="tires.png" alt="Tires logo"></div></a></li>
+                <li><a href="carpet.html"><div class="second">Коврики      <div class="carpet"><img src="autoakses.png" alt="Carpet logo"></div></a></li>
+                 <div class="icon" ><center><img src="car.png" alt="Car logo"></center></div>
               </ul>
             </div>
           </nav>
-         
+  
 
+          
     <div class="main1111">
    
 
@@ -124,7 +178,8 @@ background-size: cover;
         </center>
   
   
-    
+      
+  
     </body>
    
     </html>
