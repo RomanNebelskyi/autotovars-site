@@ -1,6 +1,7 @@
 <!DOCTYPE html>
     <html>
     <head>
+            
             <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
             <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
         <title>Autotovars</title>
@@ -10,6 +11,8 @@
          <link rel="stylesheet" href="css/materialize.css">
          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
          <link rel="shortcut icon" href="2.png" type="image/x-icon">
+         <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJPy1pM5ADHR_2Y9EqSlUWTnMrM36vl6c&callback=initMap">asd</script>
 <style>
 h1{
     font-family: 'Shrikhand', cursive;
@@ -41,12 +44,16 @@ background-size: cover;
 
     
 }
+#map {
+        height: 400px;
+        width: 100%;
+       }
 .icon{
     
     width: 30px;
     height: 30px;
-margin-left:322%;
-margin-top:5%;
+margin-left:222%;
+margin-top:3%;
 
 
 }
@@ -70,13 +77,17 @@ margin-top:5%;
   }
 
 .autotovars{
+    font-size :15px;
 font-style: bold;
-    height: 20px;
-    width: 100px;
-margin-left: -315%;
+line-height:1;
+ width:100px;
+margin-right:-500%;
+left:100%;
+margin-top:4%;
 
 }
   .first{
+     
     font-size:24px;
 }
 .second{
@@ -84,10 +95,16 @@ margin-left: -315%;
    font-size:24px; 
 }
 .carpet{
+    width:10%;
     margin-top:-67%;
    margin-left:80%;
 
 
+}
+.axess{
+    width:10%;
+    margin-top:-58%;
+   margin-left:82%;
 }
 </style>
          </head>
@@ -96,19 +113,16 @@ margin-left: -315%;
 <div class="bg">
     <h1>Autotovars for cars!</h1> 
     <nav>
-            <div class="nav-wrapper">
-              <a href="#!" class="brand-logo center"><div class="autotovars">Autotovars</div></a>
+            <div>
+              <a href="#!" class="brand-logo center"><div class="autotovars"> 0670000000 Kyivstar 0630000000 Life </div></a>
              <ul class="left hide-on-med-and-down">
                 <li><a href="tires.html"><div class="first">Шини   </div><div class="tires"><img src="tires.png" alt="Tires logo"></div></a></li>
                 <li><a href="carpet.html"><div class="second">Коврики      <div class="carpet"><img src="autoakses.png" alt="Carpet logo"></div></a></li>
+                <li><a href="axess.html"><div class="third">Аксесуари     <div class="axess"><img src="axess.png"></div></a></li>
                  <div class="icon" ><center><img src="car.png" alt="Car logo"></center></div>
               </ul>
             </div>
           </nav>
-    
-<a class="waves-effect waves-light btn">button</a>
-<a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>button</a>
-<a class="waves-effect waves-light btn"><i class="material-icons right">cloud</i>button</a>
   
 
           
@@ -126,6 +140,48 @@ margin-left: -315%;
         <br>
         <br>
         <br>
+       
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: {lat: -28.643387, lng: 153.612224},
+        });
+        var marker = new google.maps.Marker({
+          position: center,
+          map: map
+        });
+        var myLatlng = new google.maps.LatLng(-25.363882,131.044922);
+        var mapOptions = {
+          zoom: 4,
+          center: {lat: -28.643387, lng: 153.612224},
+        }
+        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+        var myLatlng = new google.maps.LatLng(-25.363882,131.044922);
+var mapOptions = {
+  zoom: 4,
+  center: {lat: -28.643387, lng: 153.612224},
+}
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+var marker = new google.maps.Marker({
+    position: center,
+    center: {lat: -28.643387, lng: 153.612224},
+    
+});
+
+        var marker = new google.maps.Marker({
+            position: myLatlng,
+            center: {lat: -28.643387, lng: 153.612224},
+            
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJPy1pM5ADHR_2Y9EqSlUWTnMrM36vl6c&callback=initMap">
+    </script>
         <br> <br>
         <br>
         <br>
@@ -136,6 +192,7 @@ margin-left: -315%;
         <br>
         <br>
         <br>
+       
         <br>
         <br>
         <br>
