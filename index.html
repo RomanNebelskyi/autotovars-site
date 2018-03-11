@@ -40,7 +40,7 @@ background-size: cover;
    
 }
 #nav{
-
+margin-top: 0;
 
     
 }
@@ -80,14 +80,17 @@ margin-top:3%;
     font-size :15px;
 font-style: bold;
 line-height:1;
- width:100px;
-margin-right:-500%;
-left:100%;
-margin-top:4%;
+ width: 10%;
+margin-left:190%;
+margin-top:1%;
+
+}
+.a.brand-logo-center.brand-logo-center{
+margin-left:-20%;
 
 }
   .first{
-     
+     margin-left:-100%;
     font-size:24px;
 }
 .second{
@@ -101,22 +104,33 @@ margin-top:4%;
 
 
 }
+.wieszak{
+margin-top:10%;
+width:50%;
+margin-left:2%;
+}
 .axess{
     width:10%;
     margin-top:-58%;
    margin-left:82%;
 }
+#opis{
+color:#FFFFFF;
+
+}
 </style>
          </head>
     <body>
+   
         <center>
+
 <div class="bg">
-    <h1>Autotovars for cars!</h1> 
+
     <nav>
             <div>
               <a href="#!" class="brand-logo center"><div class="autotovars"> 0670000000 Kyivstar 0630000000 Life </div></a>
              <ul class="left hide-on-med-and-down">
-                <li><a href="tires.html"><div class="first">Шини   </div><div class="tires"><img src="tires.png" alt="Tires logo"></div></a></li>
+                <li><a href="tires.html"><div class="first">Шини</div><div class="tires"><img src="tires.png" alt="Tires logo"></div></a></li>
                 <li><a href="carpet.html"><div class="second">Коврики      <div class="carpet"><img src="autoakses.png" alt="Carpet logo"></div></a></li>
                 <li><a href="axess.html"><div class="third">Аксесуари     <div class="axess"><img src="axess.png"></div></a></li>
                  <div class="icon" ><center><img src="car.png" alt="Car logo"></center></div>
@@ -128,7 +142,14 @@ margin-top:4%;
           
     <div class="main1111">
    
+<ul>
 
+<li><br><br><br><h5 id="opis" >Наш сайт характеризується великим вибором виробників автомобільних шин та ковриків</h5></li>
+<li><h5 id="opis"> Також Ви можете замовити вищеописані товари будь-якого розміру під Вашу марку автомобіля</h5></li>
+<li><h5 id="opis" >Швидка тех. підтримка(гаряча лінія)</h5></li>
+<li><h5 id="opis" >Товари, вага та об'єм яких не перевищує певні міри, можуть бути відправлені Вам на пошту за допомогою різних поштових компаній(Нова Пошта, УкрПошта і т.д.)</h5></li>
+
+</ul>
         <br>
         <br>
         <br>
@@ -141,47 +162,7 @@ margin-top:4%;
         <br>
         <br>
        
-    <div id="map"></div>
-    <script>
-      function initMap() {
-        var uluru = {lat: -25.363, lng: 131.044};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 4,
-          center: {lat: -28.643387, lng: 153.612224},
-        });
-        var marker = new google.maps.Marker({
-          position: center,
-          map: map
-        });
-        var myLatlng = new google.maps.LatLng(-25.363882,131.044922);
-        var mapOptions = {
-          zoom: 4,
-          center: {lat: -28.643387, lng: 153.612224},
-        }
-        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-        var myLatlng = new google.maps.LatLng(-25.363882,131.044922);
-var mapOptions = {
-  zoom: 4,
-  center: {lat: -28.643387, lng: 153.612224},
-}
-var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-
-var marker = new google.maps.Marker({
-    position: center,
-    center: {lat: -28.643387, lng: 153.612224},
-    
-});
-
-        var marker = new google.maps.Marker({
-            position: myLatlng,
-            center: {lat: -28.643387, lng: 153.612224},
-            
-        });
-      }
-    </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJPy1pM5ADHR_2Y9EqSlUWTnMrM36vl6c&callback=initMap">
-    </script>
+   
         <br> <br>
         <br>
         <br>

@@ -3,11 +3,70 @@
  * Copyright 2014-2017 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
+ 
+ #hov:link{
 
-.materialize-red {
-  background-color: #e51c23 !important;
+  color:rgba(255, 187, 0, 0.7);
+}
+#hov:visited{
+  color:rgb(253, 101, 0);
+
+}
+img#hov{
+  cursor: pointer; max-width: 350px;
+  }
+img#hov:hover{
+    max-width: none;
+    }
+#hov:hover {
+color:rgb(255, 30, 0);
+}
+ .waves-effect.waves-brown .waves-ripple {
+  background-color: rgba(121, 85, 72, 0.65);
+ }
+ @media only screen and (min-width 992) {
+ h1{
+font-size:14px;
+
+
+ }
+ .main1111{
+width:8%;
+
+ }
+ .autotovars{
+    width:device-width;
+   margin-right: 50000%;
+  width: 8.3333333333%;
+ 
+
+ 
+}
+.icon{
+  width: 8.3333333333%;
+  margin-left: auto;
+  left: auto;
+  right: auto;
+}
+.tires{
+  width:10%;
+  margin-left:auto;
+  left:auto;
+  width: 8.3333333333%;
+  margin-left: auto;
+  left: auto;
+  right: auto;
+}
+.first{
+  width:device-width;
+  margin-left: -500%;
+  width: 8.3333333333%;
+  margin-left: auto;
+  left: auto;
+  right: auto;
 }
 
+ }
 .materialize-red-text {
   color: #e51c23 !important;
 }
@@ -4209,12 +4268,13 @@ nav ul a span.badge {
 
 nav {
   color: #fff;
-  background-color: #f4a560a6;
+  background-color: rgb(244, 163, 96);
   width:60%;
   height: 56px;
   line-height: 56px;
   position: fixed;
   margin-left:20%;
+  display:block;
 }
 
 nav.nav-extended {
@@ -4278,14 +4338,14 @@ nav .brand-logo {
 }
 
 nav .brand-logo.center {
-  left: 500%;
+
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
 
 @media only screen and (max-width: 992px) {
   nav .brand-logo {
-    left: 50%;
+    left: 100%;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
   }
