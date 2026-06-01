@@ -20,7 +20,7 @@ This is a personal archive project. It was my first attempt at building a web pr
 
 ## Live
 
-You can view the site at [https://RomanNebelskyi.github.io/autotovars-site/](https://RomanNebelskyi.github.io/autotovars-site/)
+<https://RomanNebelskyi.github.io/autotovars-site/>
 ```
 
 ## Run locally
