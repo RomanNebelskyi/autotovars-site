@@ -17,6 +17,10 @@ This is a personal archive project. It was my first attempt at building a web pr
 ├── css/                  — MaterializeCSS styles
 ├── js/                   — jQuery and MaterializeJS
 └── fonts/                — Material Icons
+
+## Live
+
+You can view the site at [https://RomanNebelskyi.github.io/autotovars-site/](https://RomanNebelskyi.github.io/autotovars-site/)
 ```
 
 ## Run locally
